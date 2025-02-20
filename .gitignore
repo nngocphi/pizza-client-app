@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build files
+dist/
+build/
+
+# Cache
+.cache/
+.next/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+
+# Dependencies
+package-lock.json
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# GitHub Actions (if applicable)
+.github/workflows/node_modules/
+
+# TypeScript
+*.tsbuildinfo
